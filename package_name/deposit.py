@@ -1,4 +1,4 @@
-def depositar(saldo, valor, extrato, /):
+def deposit(saldo, valor, extrato, /):
     if valor > 0:
         saldo += valor
         extrato += f"Depósito: R$ {valor:.2f}\n"
