@@ -1,4 +1,4 @@
-def sacar(*, saldo, valor, extrato, limite, numero_saques, limite_saques):
+def removal(*, saldo, valor, extrato, limite, numero_saques, limite_saques):
     saldo = 0
     excedeu_saldo = valor > saldo
 
